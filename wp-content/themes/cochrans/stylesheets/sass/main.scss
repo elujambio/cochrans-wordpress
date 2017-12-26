@@ -1,0 +1,57 @@
+@import 'base/foundation'; 
+
+
+$drop-shadow: drop-shadow(0px 3px 3px rgba(0,0,0,.35)); 
+$red-darker: #910000; 
+
+$primary: #EFAD00; 
+$secondary: #910000; 
+$secondary-400: #B71C1C; 
+
+@import 'base/text';
+
+* {
+	z-index:  1; 
+}
+
+html, 
+body {
+	width:  100vw; 
+	overflow-x:  hidden; 
+	height:  auto; 
+}
+.stroke {
+  position: relative;
+  background: transparent;
+  z-index: 0;
+}
+
+.stroke:before {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.stroke-white:before {
+  -webkit-text-stroke: 4px #ffffff;
+}
+.stroke-black:before {
+  -webkit-text-stroke: 8px #000000;
+}
+.stroke-black-thick:before {
+  -webkit-text-stroke: 16px #000000;
+}
+.stroke-black-thin:before {
+  -webkit-text-stroke: 6px #000000;
+}
+.thick-8 {
+  // -webkit-text-stroke-width: 8px;
+}
+
+::selection {
+  color:  $primary; 
+  background-color:  #000000; 
+}
+
+@import 'components/navigation';
+@import 'pages/landing';
