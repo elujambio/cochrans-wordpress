@@ -1,0 +1,15 @@
+.ui {
+	padding-top:  235px; 
+	display:  flex; 
+	flex-direction:  column; 
+	width:  100%; 
+	max-width:  1024px; 
+	margin-left:  auto; 
+	margin-right:  auto; 
+}
+.entry-title {
+	font-size:  36px; 
+	font-family:  "Shrikhand", cursive; 
+	font-weight:  normal; 
+	color:  $secondary;
+}

@@ -20,46 +20,10 @@ get_header(); ?>
 				background-color:  #EFAD00;
 			}
 		</style>
-		<div class="menu-trigger">
-			<div class="mt-1"></div>
-			<div class="mt-2"></div>
-		</div>
-		<div class="menu">
-			<div class="menu-options"></div>
-			<div class="info">
-				<div class="info-col">
-					<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a>
-					<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a>
-					<p class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</p>
-					<p class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</p>
-				</div>
-				<div class="social-col">
-					<a href="https://www.facebook.com">
-						<img src="wp-content/themes/cochrans/images/facebook.svg">
-					</a>
-					<a href="https://www.instagram.com">
-						<img src="wp-content/themes/cochrans/images/instagram.svg">
-					</a>
 
-				</div>
-			</div>	
-		</div>
-		<div class="navigation">
-			<div class="left">
-				<a class="navigation-link tingle stroke stroke-white" href="" title="Turkey order">Turkey order</a>
-				<a class="navigation-link tingle stroke stroke-white" href="" title="Menu">Menu</a>
-			</div>
-			<a class="logo-link" href="">
-				<img class="logo" src="wp-content/themes/cochrans/images/logo.png">
-			</a>
-			<div class="right">
-				<a class="navigation-link tingle stroke stroke-white" href="" title="Catering">Catering</a>
-				<a class="navigation-link tingle stroke stroke-white" href="" title="Gift cards">Gift cards</a>
-			</div>
-		</div>
 		<div id="section-1">
 			<div class="background">
-				<img src="wp-content/themes/cochrans/images/background.jpg">
+				<img src="<?php bloginfo('template_directory'); ?>/images/background.jpg">
 			</div>
 			<div class="overlay"></div>
 			<div class="section-wrapper">
@@ -84,10 +48,10 @@ get_header(); ?>
 							</div>
 							<div class="social-col">
 								<a href="https://www.facebook.com">
-									<img src="wp-content/themes/cochrans/images/facebook.svg" alt="">
+									<img src="<?php bloginfo('template_directory'); ?>/images/facebook.svg" alt="">
 								</a>
 								<a href="https://www.instagram.com">
-									<img src="wp-content/themes/cochrans/images/instagram.svg" alt="">
+									<img src="<?php bloginfo('template_directory'); ?>/images/instagram.svg" alt="">
 								</a>
 
 							</div>
@@ -96,26 +60,26 @@ get_header(); ?>
 				</div>
 				<div class="column">
 					<div class="dot chicken-tigh">
-						<img src="wp-content/themes/cochrans/images/chicken-1.png">
+						<img src="<?php bloginfo('template_directory'); ?>/images/chicken-1.png">
 					</div>
 					<div class="dot fish-plate">
-						<img src="wp-content/themes/cochrans/images/fish-2.png">
+						<img src="<?php bloginfo('template_directory'); ?>/images/fish-2.png">
 					</div>
 					<div class="dot fish-fries">
-						<img src="wp-content/themes/cochrans/images/fish.png">
+						<img src="<?php bloginfo('template_directory'); ?>/images/fish.png">
 					</div>
 					<div class="dot chicken-leg">
-						<img src="wp-content/themes/cochrans/images/chicken-4.png">
+						<img src="<?php bloginfo('template_directory'); ?>/images/chicken-4.png">
 					</div>
 					<div class="dot chicken-breast">
-						<img src="wp-content/themes/cochrans/images/chicken-5.png">
+						<img src="<?php bloginfo('template_directory'); ?>/images/chicken-5.png">
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="section-2" class="small-section">
 			<div class="image-container">
-				<img src="wp-content/themes/cochrans/images/fish-background.jpg" alt="">
+				<img src="<?php bloginfo('template_directory'); ?>/images/fish-background.jpg" alt="">
 			</div>
 			<div class="text-container">
 				<div class="title stroke stroke-black" title="Our food">Our food</div>
@@ -128,12 +92,12 @@ get_header(); ?>
 				<div class="title stroke stroke-black" title="Chicken and Catfish">Chicken and Catfish</div>
 			</div>
 			<div class="image-container">
-				<img src="wp-content/themes/cochrans/images/fish-background-2.png" alt="">
+				<img src="<?php bloginfo('template_directory'); ?>/images/fish-background-2.png" alt="">
 			</div>
 		</div>
 		<div id="section-4" class="small-section">
 			<div class="image-container">
-				<img src="wp-content/themes/cochrans/images/vegetables.png" alt="">
+				<img src="<?php bloginfo('template_directory'); ?>/images/vegetables.png" alt="">
 			</div>
 			<div class="text-container">
 				<div class="title stroke stroke-black" title="16 world class vegetables">16 world class vegetables</div>
@@ -143,37 +107,8 @@ get_header(); ?>
 		<div id="section-5" class="small-section">
 			<p class="paragraph">The oldest in Texas style homemade rolls. Cochran’s is very famous for our handmade peach cobblers. Cochran’s Cafeteria has a wide variety of sugar frees pies. We try to have the best chicken and catfish. We’re still building the concept to provide the best service for your whole family: dine, in, or carry-out. We strive to have always offer you the very best quality fresh vegetables we can find on the market.</p>
 		</div>
-		<footer>
-			<div class="row">
-				<a class="title stroke stroke-black" title="Click here to view in Google Maps">Click here to view in Google Maps</a>
-				<a class="title stroke stroke-black" title="Click here to order now">Click here to order now</a>
-			</div>
-			<div class="row">
-				
-				<div class="info">
-					<div class="info-col">
-						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a>
-						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a>
-						<p class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</p>
-						<p class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</p>
-					</div>
-					<div class="social-col">
-						<a href="https://www.facebook.com">
-							<img src="wp-content/themes/cochrans/images/facebook.svg">
-						</a>
-						<a href="https://www.instagram.com">
-							<img src="wp-content/themes/cochrans/images/instagram.svg">
-						</a>
 
-					</div>
-				</div>			
-				<a href="" class="logo-link">
-					<img src="wp-content/themes/cochrans/images/logo.png" alt="">
-				</a>
-			</div>
-		</footer>
-	</body>
-</html>
 
-<script src="wp-content/themes/cochrans/javascripts/landing.js"></script>
-<script src="wp-content/themes/cochrans/javascripts/menu.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/javascripts/landing.js"></script>
+<?php get_footer(); ?>
+

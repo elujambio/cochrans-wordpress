@@ -1,0 +1,35 @@
+.erm_menu {
+}
+.erm_menu_content {
+	width:  100%; 
+	display:  flex; 
+	flex-direction:  row;
+	align-items:  stretch; 
+	justify-content:  space-between; 
+	flex-wrap:  wrap; 
+	.erm_section {
+		width:  100%; 
+		.erm_section_title {
+			font-size:  28px; 
+			font-family:  "Lora", serif; 
+			border-top:  solid 4px #000000; 
+			border-bottom:  solid 4px #000000; 
+			padding:  18px 0px; 
+		}
+	}
+	.erm_product {
+		width:  calc(50% - 10px); 
+		.erm_image_popup {
+			display:  inline-block; 
+			
+			height:  140px; 
+			width:  140px; 
+		}
+		.erm_product_image {
+			height:  140px; 
+			width:  140px; 
+			object-fit:  contain !important; 
+			object-position:  center center !important; 
+		}
+	}
+}
