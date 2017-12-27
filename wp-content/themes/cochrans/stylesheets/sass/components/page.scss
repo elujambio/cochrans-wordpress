@@ -1,0 +1,26 @@
+.entry-title {
+	font-size:  48px; 
+	font-family:  "Shrikhand", serif; 
+	font-weight:  normal; 
+	color:  $primary; 
+	border-top:  solid 0px #000000; 
+	border-bottom:  solid 0px #000000; 
+	padding:  18px 0px; 
+	
+	position: relative;
+	background: transparent;
+	z-index: 0;
+	
+	transform:  skewY(-6.5deg);
+	
+	margin-bottom:  60px; 
+	
+	&:before {
+	  content: attr(title);
+	  position: absolute;
+	  left: 0;
+	  z-index: -1;
+	  -webkit-text-stroke: 8px #000000;
+	}
+	
+}

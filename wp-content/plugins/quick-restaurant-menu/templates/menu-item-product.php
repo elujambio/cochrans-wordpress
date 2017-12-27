@@ -29,7 +29,7 @@ if ( !$visible ) return;
     }
     ?>
 
-    <h3 class="erm_product_title"><?php echo $the_post->post_title; ?></h3>
+    <h3 class="erm_product_title" title="<?php echo $the_post->post_title; ?>"><?php echo $the_post->post_title; ?></h3>
 
     <?php
 

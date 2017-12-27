@@ -6,7 +6,7 @@
             <?php foreach( $prices as $price ) { ?>
                 <li>
                     <span class="name"><?php echo $price['name']; ?></span>
-                    <span class="price"><?php echo apply_filters('erm_filter_price', $price['value']); ?></span>
+                    <span class="price" title="<?php echo apply_filters('erm_filter_price', $price['value']); ?>"><?php echo apply_filters('erm_filter_price', $price['value']); ?></span>
                 </li>
             <?php } ?>
         </ul>
