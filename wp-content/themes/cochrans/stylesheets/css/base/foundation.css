@@ -62,9 +62,9 @@ button {
 :focus {
   outline: 0; }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border: 0; }
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0; }
 
 /*# sourceMappingURL=foundation.css.map */
