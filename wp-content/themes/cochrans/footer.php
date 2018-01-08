@@ -1,28 +1,28 @@
 		<footer>
 			<div class="row">
-				<a class="title stroke stroke-black" title="Click here to view in Google Maps">Click here to view in Google Maps</a>
+				<a class="title stroke stroke-black" title="Click here to view in Google Maps" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/">Click here to view in Google Maps</a>
 				<a class="title stroke stroke-black" title="Click here to order now">Click here to order now</a>
 			</div>
 			<div class="row">
 				
 				<div class="info">
 					<div class="info-col">
-						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a>
-						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a>
-						<p class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</p>
-						<p class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</p>
+						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
+						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a><br>
+						<a href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
+						<a href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
 					</div>
 					<div class="social-col">
-						<a href="https://www.facebook.com">
+						<a href="https://www.facebook.com/cochransgbc/?fref=ts">
 							<img src="<?php bloginfo('template_directory'); ?>/images/facebook.svg">
 						</a>
-						<a href="https://www.instagram.com">
+						<a href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
 							<img src="<?php bloginfo('template_directory'); ?>/images/instagram.svg">
 						</a>
 
 					</div>
 				</div>			
-				<a href="" class="logo-link">
+				<a href="<?php echo get_home_url() ?>" class="logo-link">
 					<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="">
 				</a>
 			</div>
@@ -71,7 +71,6 @@
 					menu_timeline.tweenTo("menu-closed"); 
 					menu_open = false;
 				}
-
 			}
 
 		</script>

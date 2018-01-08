@@ -63,11 +63,13 @@
 			font-family: "Lora", serif; 
 
 		}
-		.erm_product_price {
+		.erm_product_price, 
+		.price {
 			margin-top:  18px; 
 			font-size:  18px; 
-			font-family: "Lora", serif; 
-			
+			font-family: "Shrikhand", cursive; 
+			font-weight:  normal; 
+
 			position: relative;
 			background: transparent;
 			z-index: 0;

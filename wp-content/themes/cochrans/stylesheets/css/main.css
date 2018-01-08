@@ -207,7 +207,8 @@ body {
   width: 100%;
   max-width: 1024px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-bottom: 60px; }
 
 .entry-title {
   font-size: 36px;
@@ -266,16 +267,19 @@ body {
     .erm_menu_content .erm_product .erm_product_title {
       font-size: 24px;
       font-family: "Lora", serif; }
-    .erm_menu_content .erm_product .erm_product_price {
+    .erm_menu_content .erm_product .erm_product_price,
+    .erm_menu_content .erm_product .price {
       margin-top: 18px;
       font-size: 18px;
-      font-family: "Lora", serif;
+      font-family: "Shrikhand", cursive;
+      font-weight: normal;
       position: relative;
       background: transparent;
       z-index: 0;
       transform: skewY(-6.5deg);
       color: #EFAD00; }
-      .erm_menu_content .erm_product .erm_product_price:before {
+      .erm_menu_content .erm_product .erm_product_price:before,
+      .erm_menu_content .erm_product .price:before {
         content: attr(title);
         position: absolute;
         left: 0;
