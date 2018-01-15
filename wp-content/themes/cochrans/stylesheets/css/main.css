@@ -285,6 +285,8 @@ body {
         left: 0;
         z-index: -1;
         -webkit-text-stroke: 8px #000000; }
+    .erm_menu_content .erm_product .price {
+      padding: 0px 0px !important; }
     .erm_menu_content .erm_product .erm_product_desc {
       font-family: 16px;
       font-family: "Lora", serif; }
