@@ -40,9 +40,16 @@
 	  src="https://code.jquery.com/jquery-3.2.1.min.js"
 	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		  crossorigin="anonymous"></script>
-
-</head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.11&appId=502512736803830';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	</head>
 	<div class="menu-trigger">
 		<div class="mt-1"></div>
 		<div class="mt-2"></div>
