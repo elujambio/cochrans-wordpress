@@ -7,8 +7,8 @@
 				
 				<div class="info">
 					<div class="info-col">
-						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
-						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a><br>
+						<a href="tel:9038873229" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
+						<a href="tel:9038873229" class="call-us stroke stroke-black-thin" title="903-887-3229">903-887-3229</a><br>
 						<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
 						<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
 					</div>
