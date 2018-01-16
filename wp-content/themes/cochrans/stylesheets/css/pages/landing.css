@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$primary".
-        on line 47 of /Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/pages/landing.scss
+        on line 47 of /Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/pages/landing.scss
 
 42: 		width:  50%; 
 43: 		height: 100%; 
@@ -15,7 +15,7 @@ Error: Undefined variable: "$primary".
 52: 	}
 
 Backtrace:
-/Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/pages/landing.scss:47
+/Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/pages/landing.scss:47
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary\".\A         on line 47 of /Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/pages/landing.scss\A \A 42: 		width:  50%; \A 43: 		height: 100%; \A 44: 		position:  relative; \A 45: 	}\A 46: 	.title {\A 47: 		color:  $primary;\A 48: 		font-size:  40px; \A 49: 		&:not(:first-of-type) {\A 50: 			margin-bottom:  20px; \A 51: 		}\A 52: 	}"; }
+  content: "Error: Undefined variable: \"$primary\".\A         on line 47 of /Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/pages/landing.scss\A \A 42: 		width:  50%; \A 43: 		height: 100%; \A 44: 		position:  relative; \A 45: 	}\A 46: 	.title {\A 47: 		color:  $primary;\A 48: 		font-size:  40px; \A 49: 		&:not(:first-of-type) {\A 50: 			margin-bottom:  20px; \A 51: 		}\A 52: 	}"; }

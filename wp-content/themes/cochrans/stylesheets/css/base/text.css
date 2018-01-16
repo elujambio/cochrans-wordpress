@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$drop-shadow".
-        on line 4 of /Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/base/text.scss
+        on line 4 of /Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/base/text.scss
 
 1: .title {
 2: 	font-size:  35px;
@@ -13,7 +13,7 @@ Error: Undefined variable: "$drop-shadow".
 9: }
 
 Backtrace:
-/Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/base/text.scss:4
+/Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/base/text.scss:4
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -60,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$drop-shadow\".\A         on line 4 of /Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/base/text.scss\A \A 1: .title {\A 2: 	font-size:  35px;\A 3: 	font-family: \"Shrikhand\", cursive; \A 4: 			filter:  $drop-shadow; \A 5: }\A 6: .paragraph {\A 7: 	font-size:  15px;\A 8: 	font-family: \"Lora\", serif;  \A 9: }"; }
+  content: "Error: Undefined variable: \"$drop-shadow\".\A         on line 4 of /Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/base/text.scss\A \A 1: .title {\A 2: 	font-size:  35px;\A 3: 	font-family: \"Shrikhand\", cursive; \A 4: 			filter:  $drop-shadow; \A 5: }\A 6: .paragraph {\A 7: 	font-size:  15px;\A 8: 	font-family: \"Lora\", serif;  \A 9: }"; }

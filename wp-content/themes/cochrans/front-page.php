@@ -77,6 +77,8 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+
+
 		<div id="section-2" class="small-section">
 			<div class="image-container">
 				<img src="<?php bloginfo('template_directory'); ?>/images/fish-background.jpg" alt="">

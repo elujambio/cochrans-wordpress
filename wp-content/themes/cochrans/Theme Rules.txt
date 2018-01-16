@@ -1,0 +1,13 @@
+This are rules the page must have in order to function well:
+
+Pages: 
+
+  The site must have a page with the slug "season-offerings"
+  The site must have a page with the slug "menu"
+  The site must have a page with the slug "catering"
+  The site must have a page with the slug "gift-cards"
+
+Menu Page:
+
+  
+

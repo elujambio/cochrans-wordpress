@@ -48,19 +48,24 @@
 		<div class="mt-2"></div>
 	</div>
 	<div class="menu">
-		<div class="menu-options"></div>
+		<div class="menu-options">
+			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('season-offerings')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('season-offerings')->ID) ?>"><?php echo get_the_title(get_page_by_path('season-offerings')->ID) ?></a>
+			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('menu')->ID ); ?>" title="Menu">Menu</a>
+			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('catering')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('catering')->ID) ?>"><?php echo get_the_title(get_page_by_path('catering')->ID) ?></a>
+			<a class="stroke stroke-black" href="" title="Gift cards">Gift cards</a>
+		</div>
 		<div class="info">
 			<div class="info-col">
 				<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
 				<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a><br>
-				<a href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
-				<a href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
+				<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
+				<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
 			</div>
 			<div class="social-col">
-				<a href="https://www.facebook.com/cochransgbc/?fref=ts">
+				<a target="_blank" href="https://www.facebook.com/cochransgbc/?fref=ts">
 					<img src="<?php bloginfo('template_directory'); ?>/images/facebook.svg">
 				</a>
-				<a href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
+				<a target="_blank" href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
 					<img src="<?php bloginfo('template_directory'); ?>/images/instagram.svg">
 				</a>
 

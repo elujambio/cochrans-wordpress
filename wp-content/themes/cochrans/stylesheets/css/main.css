@@ -62,11 +62,6 @@ button {
 :focus {
   outline: 0; }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border: 0; }
-
 .title {
   font-size: 35px;
   font-family: "Shrikhand", cursive;
@@ -193,6 +188,16 @@ body {
       display: flex;
       flex-direction: column; }
 
+.menu-options {
+  display: flex;
+  flex-direction: column; }
+  .menu-options a {
+    color: #EFAD00;
+    font-family: "Shrikhand", cursive;
+    line-height: 115%;
+    transform: skewY(-6.5deg);
+    font-size: 40px; }
+
 @media screen and (max-width: 1024px) {
   .navigation .left,
   .navigation .right {
@@ -276,6 +281,7 @@ body {
       position: relative;
       background: transparent;
       z-index: 0;
+      padding: 0px;
       transform: skewY(-6.5deg);
       color: #EFAD00; }
       .erm_menu_content .erm_product .erm_product_price:before,

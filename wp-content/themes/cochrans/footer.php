@@ -1,7 +1,7 @@
 		<footer>
 			<div class="row">
-				<a class="title stroke stroke-black" title="Click here to view in Google Maps" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/">Click here to view in Google Maps</a>
-				<a class="title stroke stroke-black" title="Click here to order now">Click here to order now</a>
+				<a target="_blank" class="title stroke stroke-black" title="Click here to view in Google Maps" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/">Click here to view in Google Maps</a>
+				<a target="_blank" class="title stroke stroke-black" title="Click here to order now">Click here to order now</a>
 			</div>
 			<div class="row">
 				
@@ -9,14 +9,14 @@
 					<div class="info-col">
 						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
 						<a href="tel:9038871807" class="call-us stroke stroke-black-thin" title="903-887-1807">903-887-1807</a><br>
-						<a href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
-						<a href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
+						<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
+						<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
 					</div>
 					<div class="social-col">
-						<a href="https://www.facebook.com/cochransgbc/?fref=ts">
+						<a target="_blank" href="https://www.facebook.com/cochransgbc/?fref=ts">
 							<img src="<?php bloginfo('template_directory'); ?>/images/facebook.svg">
 						</a>
-						<a href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
+						<a target="_blank" href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
 							<img src="<?php bloginfo('template_directory'); ?>/images/instagram.svg">
 						</a>
 
@@ -27,6 +27,8 @@
 				</a>
 			</div>
 		</footer>
+
+		
 		<!-- <script src="<?php bloginfo('template_directory'); ?>/javascripts/menu.js"></script> -->
 		<script>	
 			$(document).on("click", function(event){

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$secondary".
-        on line 19 of /Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/components/navigation.scss
+        on line 19 of /Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/components/navigation.scss
 
 14: 		height:  100%; 
 15: 		width:  auto; 
@@ -15,7 +15,7 @@ Error: Undefined variable: "$secondary".
 24: 			margin-right:  36px; 
 
 Backtrace:
-/Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/components/navigation.scss:19
+/Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/components/navigation.scss:19
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary\".\A         on line 19 of /Users/eugenio/Documents/wordpress/cochrans-wordpress/wp-content/themes/cochrans/stylesheets/sass/components/navigation.scss\A \A 14: 		height:  100%; \A 15: 		width:  auto; \A 16: 		// filter:  $drop-shadow; \A 17: 	}\A 18: 	.navigation-link {\A 19: 		color:  $secondary; \A 20: 		font-size:  20px; \A 21: 		font-family: \"Shrikhand\", cursive; \A 22: 		// filter:  $drop-shadow; \A 23: 		&:first-of-type {\A 24: 			margin-right:  36px; "; }
+  content: "Error: Undefined variable: \"$secondary\".\A         on line 19 of /Users/elujambio/Documents/wordpress/cochrans/wp-content/themes/cochrans/stylesheets/sass/components/navigation.scss\A \A 14: 		height:  100%; \A 15: 		width:  auto; \A 16: 		// filter:  $drop-shadow; \A 17: 	}\A 18: 	.navigation-link {\A 19: 		color:  $secondary; \A 20: 		font-size:  20px; \A 21: 		font-family: \"Shrikhand\", cursive; \A 22: 		// filter:  $drop-shadow; \A 23: 		&:first-of-type {\A 24: 			margin-right:  36px; "; }

@@ -94,6 +94,17 @@
 
 	}
 }
+.menu-options {
+	display:  flex; 
+	flex-direction:  column; 
+	a {
+		color:  $primary; 
+		font-family:  "Shrikhand", cursive; 
+		line-height:  115%; 
+		transform:  skewY(-6.5deg);
+		font-size:  40px; 
+	}
+}
 @media screen and (max-width: 1024px) {
 	.navigation {
 		.left, 
