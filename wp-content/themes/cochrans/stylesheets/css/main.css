@@ -291,6 +291,8 @@ body {
         left: 0;
         z-index: -1;
         -webkit-text-stroke: 8px #000000; }
+    .erm_menu_content .erm_product .price {
+      padding: 0px 0px !important; }
     .erm_menu_content .erm_product .erm_product_desc {
       font-family: 16px;
       font-family: "Lora", serif; }
@@ -663,5 +665,19 @@ footer {
   footer .info a,
   footer .info p {
     font-size: 15px; } }
+.ui > article > .entry-content > p {
+  line-height: 155%;
+  font-size: 16px;
+  width: 768px;
+  height: auto;
+  margin-bottom: 20px; }
+  .ui > article > .entry-content > p > img {
+    height: 200px;
+    width: calc(50% - 10px);
+    object-fit: cover;
+    object-position: center center;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
