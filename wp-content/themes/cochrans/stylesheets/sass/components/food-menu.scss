@@ -99,5 +99,13 @@
 			object-position:  center center !important; 
 		}
 	}
+	@media screen and (max-width:  1136px) {
+		.erm_product {
+			width:  100%; 
+			.erm_product_title {
+				font-size:  18px; 
+			}
+		}
+	}
 	
 }
