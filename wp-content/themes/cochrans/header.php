@@ -91,7 +91,8 @@
 		</a>
 		<div class="right">
 			<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('catering')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('catering')->ID) ?>"><?php echo get_the_title(get_page_by_path('catering')->ID) ?></a>
-			<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('gift-cards')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?>"><?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?></a>
+			<!-- <a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('gift-cards')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?>"><?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?></a> -->
+			<a class="navigation-link tingle stroke stroke-white" href="http://togo.cochranschicken.com/" title="Order online">Order online</a>
 		</div>
 	</div>
 		

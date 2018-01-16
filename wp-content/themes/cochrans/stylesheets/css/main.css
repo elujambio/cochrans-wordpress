@@ -331,6 +331,22 @@ body {
     z-index: -1;
     -webkit-text-stroke: 8px #000000; }
 
+.entry-content form input,
+.entry-content form textarea,
+.entry-content form select {
+  margin-bottom: 18px;
+  padding: 12px 18px;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 6px;
+  width: 320px;
+  box-sizing: border-box;
+  border-radius: 5px; }
+.entry-content form input[type="submit"] {
+  background-color: #EFAD00;
+  border: none;
+  width: 320px; }
+
 .section-wrapper {
   max-width: 1136px;
   width: 100%;
