@@ -50,49 +50,75 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	</head>
-	<div class="menu-trigger">
-		<div class="mt-1"></div>
-		<div class="mt-2"></div>
-	</div>
-	<div class="menu">
-		<div class="menu-options">
-			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('season-offerings')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('season-offerings')->ID) ?>"><?php echo get_the_title(get_page_by_path('season-offerings')->ID) ?></a>
-			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('menu')->ID ); ?>" title="Menu">Menu</a>
-			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('catering')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('catering')->ID) ?>"><?php echo get_the_title(get_page_by_path('catering')->ID) ?></a>
-			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('gift-cards')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?>"><?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?></a>
-			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('about-us')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('about-us')->ID) ?>"><?php echo get_the_title(get_page_by_path('about-us')->ID) ?></a>
-			<a class="stroke stroke-black" href="<?php echo get_page_link( get_page_by_path('contact-us')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('contact-us')->ID) ?>"><?php echo get_the_title(get_page_by_path('contact-us')->ID) ?></a>
-		</div>
-		<div class="info">
-			<div class="info-col">
-				<a href="tel:9038873229" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
-				<a href="tel:9038873229" class="call-us stroke stroke-black-thin" title="903-887-3229">903-887-3229</a><br>
-				<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
-				<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
-			</div>
-			<div class="social-col">
-				<a target="_blank" href="https://www.facebook.com/cochransgbc/?fref=ts">
-					<img src="<?php bloginfo('template_directory'); ?>/images/facebook.svg">
-				</a>
-				<a target="_blank" href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
-					<img src="<?php bloginfo('template_directory'); ?>/images/instagram.svg">
-				</a>
 
+		<div class="menu-trigger">
+			<div class="mt-1"></div>
+			<div class="mt-2"></div>
+		</div>
+		<div class="menu">
+			<div class="menu-options">
+				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('season-offerings')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?></a>
+				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('menu')->ID) ); ?>" title="Menu">Menu</a>
+				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('catering')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('catering')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('catering')->ID)) ?></a>
+				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('gift-cards')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('gift-cards')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('gift-cards')->ID)) ?></a>
+				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('about-us')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('about-us')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('about-us')->ID)) ?></a>
+				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('contact-us')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('contact-us')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('contact-us')->ID)) ?></a>
 			</div>
-		</div>	
-	</div>
-	<div class="navigation">
-		<div class="left">
-			<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('season-offerings')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('season-offerings')->ID) ?>"><?php echo get_the_title(get_page_by_path('season-offerings')->ID) ?></a>
-			<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('menu')->ID ); ?>" title="Menu">Menu</a>
+			<div class="info">
+				<div class="info-col">
+					<a href="tel:9038873229" class="call-us stroke stroke-black-thin" title="Call us:">Call us:</a><br>
+					<a href="tel:9038873229" class="call-us stroke stroke-black-thin" title="903-887-3229">903-887-3229</a><br>
+					<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="816 W. Main St,">816 W. Main St,</a><br>
+					<a target="_blank" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/" class="address stroke stroke-black-thin" title="Gun Barrel City, TX">Gun Barrel City, TX</a>
+				</div>
+				<div class="social-col">
+					<a target="_blank" href="https://www.facebook.com/cochransgbc/?fref=ts">
+						<img src="<?php bloginfo('template_directory'); ?>/images/facebook.svg">
+					</a>
+					<a target="_blank" href="https://www.instagram.com/explore/locations/362965746/cochrans-cafeteria/">
+						<img src="<?php bloginfo('template_directory'); ?>/images/instagram.svg">
+					</a>
+
+				</div>
+			</div>	
 		</div>
-		<a class="logo-link" href="<?php echo get_home_url() ?>">
-			<img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png">
-		</a>
-		<div class="right">
-			<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('catering')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('catering')->ID) ?>"><?php echo get_the_title(get_page_by_path('catering')->ID) ?></a>
-			<!-- <a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( get_page_by_path('gift-cards')->ID ); ?>" title="<?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?>"><?php echo get_the_title(get_page_by_path('gift-cards')->ID) ?></a> -->
-			<a class="navigation-link tingle stroke stroke-white" href="http://togo.cochranschicken.com/" title="Order online">Order online</a>
+		<div class="languages">
+			<?php pll_the_languages(array( 'show_flags' => 1,'show_names' => 0 )); ?>
 		</div>
-	</div>
-		
+		<style>
+			.languages {
+				position:  absolute;
+				top:  20px; 
+				left:  20px; 
+				display:  flex;
+				z-index:  50;
+			}
+			li {
+				width:  auto;
+				height:  auto; 
+				margin-right:  5px;
+			}
+			.languages 
+		</style>
+		<div class="navigation">
+			<div class="left">
+				<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('season-offerings')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?></a>
+				<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('menu')->ID) ); ?>" title="Menu">Menu</a>
+			</div>
+			<a class="logo-link" href="<?php echo get_home_url() ?>">
+				<img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png">
+			</a>
+			<div class="right">
+				<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('catering')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('catering')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('catering')->ID)) ?></a>
+				<!-- <a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('gift-cards')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('gift-cards')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('gift-cards')->ID)) ?></a> -->
+				<?php 
+				  $currentLanguage  = pll_current_language();
+				?>
+				<?php if ($currentLanguage == "en"): ?>
+					<a class="navigation-link tingle stroke stroke-white" href="http://togo.cochranschicken.com/" title="Order online">Order online</a>
+				<? endif; ?>
+				<?php if ($currentLanguage == "es"): ?>
+					<a class="navigation-link tingle stroke stroke-white" href="http://togo.cochranschicken.com/" title="Ordena en línea">Ordena en línea</a>
+				<? endif; ?>
+			</div>
+		</div>
