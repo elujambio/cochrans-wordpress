@@ -6,7 +6,8 @@
   & > p {
     line-height:  155%; 
     font-size:  16px; 
-    width:  768px; 
+    width:  100%; 
+    max-width:  768px; 
     height:  auto; 
     margin-bottom:  20px; 
     & > img {
@@ -17,6 +18,12 @@
       float:  left; 
       margin-right:  10px; 
       margin-bottom:  10px; 
+      &.full-width {
+        max-width:  600px; 
+        width:  100%; 
+        float: both; 
+        height:  auto; 
+      }
     }
   }
 }

@@ -9,6 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+    <meta name="google-site-verification" content="1j3GvrMJihyPjtdVsu1x-eNicZFPL80H6qDqjaMzbzM" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -33,7 +34,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Lora:700|Shrikhand" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/stylesheets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/stylesheets/css/main-02.css">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 	<script
@@ -57,7 +58,11 @@
 		</div>
 		<div class="menu">
 			<div class="menu-options">
-				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('season-offerings')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?></a>
+			    
+			    <?php if ( get_post_status ( get_page_by_path('season-offerings')->ID ) == 'publish' ): ?>
+                    <a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('season-offerings')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?></a>
+                    
+                <?php endif ?> 
 				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('menu')->ID) ); ?>" title="Menu">Menu</a>
 				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('catering')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('catering')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('catering')->ID)) ?></a>
 				<a class="stroke stroke-black" href="<?php echo get_page_link( pll_get_post(get_page_by_path('gift-cards')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('gift-cards')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('gift-cards')->ID)) ?></a>
@@ -102,10 +107,15 @@
 		</style>
 		<div class="navigation">
 			<div class="left">
-				<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('season-offerings')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?></a>
+
+				<?php if ( get_post_status ( get_page_by_path('season-offerings')->ID ) == 'publish' ): ?>
+				    <a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('season-offerings')->ID) ); ?>" title="<?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?>"><?php echo get_the_title(pll_get_post(get_page_by_path('season-offerings')->ID)) ?></a>
+                <?php else: ?>
+                    <a class="navigation-link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <?php endif ?>
 				<a class="navigation-link tingle stroke stroke-white" href="<?php echo get_page_link( pll_get_post(get_page_by_path('menu')->ID) ); ?>" title="Menu">Menu</a>
 			</div>
-			<a class="logo-link" href="<?php echo get_home_url() ?>">
+			<a class="logo-link" href="/">
 				<img class="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png">
 			</a>
 			<div class="right">

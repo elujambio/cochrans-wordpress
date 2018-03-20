@@ -1,6 +1,7 @@
-$(document).on("click", function(event){
+$(document).on("click touchstart", function(event){
 	if ($(event.target).is(".menu-trigger")){
 		toggleMenu(); 
+		return false; 
 	}
 });
 var menu_timeline = new TimelineMax({ paused: true }); 

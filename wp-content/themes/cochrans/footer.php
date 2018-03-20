@@ -37,7 +37,7 @@
 			<footer>
 				<div class="row">
 					<a target="_blank" class="title stroke stroke-black" title="Click aquí para ver en Google Maps" href="https://www.google.com.mx/maps/dir//cochrans+cafeteria/@32.3304355,-96.128419,16.72z/">Click aquí para ver en Google Maps</a>
-					<a target="_blank" class="title stroke stroke-black" title="Click aquí para ordenar ahora">Click aquí para ordenar ahora</a>
+					<a target="_blank" class="title stroke stroke-black" title="Click aquí para ordenar ahora" href="http://togo.cochranschicken.com/">Click aquí para ordenar ahora</a>
 				</div>
 				<div class="row">
 					
@@ -68,9 +68,10 @@
 		
 		<!-- <script src="<?php bloginfo('template_directory'); ?>/javascripts/menu.js"></script> -->
 		<script>	
-			$(document).on("click", function(event){
+			$(document).on("click touchstart", function(event){
 				if ($(event.target).is(".menu-trigger")){
 					toggleMenu(); 
+					return false; 
 				}
 			});
 			var menu_timeline = new TimelineMax({ paused: true }); 
@@ -115,3 +116,10 @@
 		</script>
 	</body>
 </html>
+
+<style>
+    html, 
+    body {
+        margin-top: 0px !important;
+    }
+</style>
